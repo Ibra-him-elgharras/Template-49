@@ -4,3 +4,21 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #6655fd;
+}
+.wrapper{
+    background: #fff;
+    width: 400px;
+    height: 100px;
+    border-radius: 8px;
+    border: 1px solid #6655fd;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 15px;
+}
